@@ -27,7 +27,8 @@ fieldset{
     margin: 50px auto;
     padding:20px;
     background-color: rgb(255, 255, 255);
-    border:1px solid black;
+    border:none;
+    border-radius:20px;
 }
 #terms{
     font-size: 9px;
@@ -39,7 +40,16 @@ div button{
     margin: 25px 0;
     width:70%;
     padding: 15px 40px;
+    border-radius: 10px;
+    border:none;
+    background-image:url(./assets/images.jfif);
+    color:white;
 }
 div p{
     font-family: sans-serif;
+}
+body{
+    background-image:url(./assets/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
