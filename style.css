@@ -15,12 +15,15 @@ form{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
 }
-input[type="text"], input[type="email"], input[type="password"], input[type="number"], select{
+input[type="text"], input[type="email"], input[type="password"], input[type="number"]{
     width: 100%;
     padding: 10px;
     margin: 15px 0;
     border:none;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid rgb(61, 89, 243);
+    background-color: rgb(254, 252, 249);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 fieldset{
     width:max-content;
@@ -42,7 +45,7 @@ div button{
     padding: 15px 40px;
     border-radius: 10px;
     border:none;
-    background-image:url(./assets/images.jfif);
+    background-color: rgb(61, 89, 243);
     color:white;
 }
 div p{
@@ -52,4 +55,23 @@ body{
     background-image:url(./assets/images.jfif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+div button:hover{
+    background-color: rgb(242, 236, 236);
+    color:rgb(61, 89, 243);
+    cursor:pointer;
+    transition: all 0.5s  ease-in-out;
+    transform:scale(1.1);
+}
+input:focus { 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 40px 40px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom: 2px solid blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+input:hover{
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(236, 236, 233);
 }
