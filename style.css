@@ -32,10 +32,14 @@ fieldset{
 #terms{
     font-size: 9px;
     display:inline;  
+    font-family: sans-serif;
 }
 div button{
     align-items: center;
-    margin: 20px 0;
+    margin: 25px 0;
     width:70%;
     padding: 15px 40px;
+}
+div p{
+    font-family: sans-serif;
 }
