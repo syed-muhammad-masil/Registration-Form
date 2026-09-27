@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    color: #434400;
+   
+}
+form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"], select{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border:none;
+    border-bottom: 2px solid #ccc;
+}
+fieldset{
+    width:max-content;
+    margin: 50px auto;
+    padding:20px;
+    background-color: rgb(255, 255, 255);
+    border:1px solid black;
+}
+#terms{
+    font-size: 9px;
+    display:inline;  
+}
+div button{
+    align-items: center;
+    margin: 20px 0;
+    width:70%;
+    padding: 15px 40px;
+}
