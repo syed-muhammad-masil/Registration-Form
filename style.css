@@ -1,3 +1,8 @@
+@font-face {
+    font-family:header;
+    src: url(./assets/Old_Standard_TT/OldStandardTT-Regular.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
 h1{
     text-align: center;
     color: #312d82;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: header;
    
 }
 form{
@@ -14,7 +19,7 @@ form{
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+   
 }
 input[type="text"], input[type="email"], input[type="password"], input[type="number"]{
     width: 100%;
@@ -33,6 +38,7 @@ fieldset{
     background-color: rgb(255, 255, 255);
     border:none;
     border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 #terms{
     font-size: 9px;
@@ -76,4 +82,8 @@ input:focus {
 input:hover{
     transition: all 0.5s ease-in-out;
     background-color: rgb(236, 236, 233);
+}
+fieldset:hover{
+    transition: all 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.565) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;    
 }
